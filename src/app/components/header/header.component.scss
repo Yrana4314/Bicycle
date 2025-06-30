@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    padding-inline: 16px;
+    padding-block: 8px;
+    background-color:#333;
+    color: white;
+    align-items:center;
+    justify-content: space-between;
+    width:auto;
+}
+nav{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    >span{
+        font-weight: bold;
+        cursor: pointer;
+        &:hover{
+            color: #8ce1a4;
+        }
+    }
+    ul{
+        list-style: none;
+        li{
+            cursor: pointer;
+            &:hover{
+                color: #8ce1a4;
+            }
+        }
+    }
+}
